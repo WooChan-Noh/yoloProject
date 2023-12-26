@@ -4,15 +4,15 @@ Not used now.
 
 
 ## Overview
-This is _Detection_ app (Android). Test with Galaxy Tab 7+.   
+This is _Detection_ app (Android). Tested with Galaxy Tab 7+.   
 "Detection" means Human Detection.   
 
 
 
 **I Used this projects**   
 + Native Gallery : https://github.com/yasirkula/UnityNativeGallery   
-+ Tiny Yolov2 : https://github.com/keijiro/TinyYOLOv2Barracuda   
-+ Tool(for yolov2) : https://github.com/keijiro/TestTools   
++ Tiny YOLOv2 : https://github.com/keijiro/TinyYOLOv2Barracuda   
++ Tool(for YOLOv2) : https://github.com/keijiro/TestTools   
 _**Before use, Check and Follow this pages!!**_
 
 ## Learn more
