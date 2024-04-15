@@ -1,11 +1,11 @@
+[Read Me - English](https://github.com/WooChan-Noh/yoloProject/blob/main/ReadMeEng.md)
+[Read Me - Japanese](https://github.com/WooChan-Noh/yoloProject/blob/main/ReadMeJp.md)
 # yoloProject
-Detection app alpha version for exhibition "Trip" (by tinygem)   
-Not used now.
+전시회 "Trip"에 사용할 사람 감지 앱의 알파 버전입니다. 
 
 
 ## Overview
-This is _Detection_ app (Android). Tested with Galaxy Tab 7+.   
-"Detection" means Human Detection.   
+안드로이드 빌드 앱입니다. Galaxy Tab 7+에서 테스트했습니다.
 
 
 
@@ -13,20 +13,19 @@ This is _Detection_ app (Android). Tested with Galaxy Tab 7+.
 + Native Gallery : https://github.com/yasirkula/UnityNativeGallery   
 + Tiny YOLOv2 : https://github.com/keijiro/TinyYOLOv2Barracuda   
 + Tool(for YOLOv2) : https://github.com/keijiro/TestTools   
-_**Before use, Check and Follow this pages!!**_
+
 
 ## Learn more
-This app take a photo(Screenshot) when you detect a human and save it to your gallery
+이 앱은 사람을 감지하면 사진(스크린샷)을 찍어 갤러리에 저장합니다.
 
 
 ## Modifided Scripts
 1. Maker.cs
-  + Made the bounding box transparent. (set alpha 0)
-  + String variable (used in VisuallizerCPU.cs)
+  + 알파 값을 0으로 설정하여 바운딩 박스를 투명하게 만들었습니다.
+  + `VisuallizerCPU.cs`에 사용할 문자열 변수를 넘깁니다.
 2. VisualizerCPU.cs
-  + Add `TakePucture()`
-  + When a human is detected **above the set Humanscore** and it is detected continuously over a certain **period of time**, Take a photo
-  + Take a photo = Screenshot
+  + `TakePucture()`를 추가했습니다.
+  + 감지한 물체가 사람이며 score가 일정 수준 이상이고, 일정 시간동안 지속된다면 사진을 찍습니다.
 ---
 
 ![img4](https://github.com/WooChan-Noh/yoloProject/assets/103042258/b6ff9973-7aef-4251-850c-8d605ec4c232)
